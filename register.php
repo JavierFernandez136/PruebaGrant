@@ -54,6 +54,7 @@
         // Close connection
         mysqli_close($conn);
         ?>
+        <a href="logout.php" type="button" class="btn btn-primary">Salir</a>
     </section>
 
 </body>
