@@ -43,7 +43,7 @@
                 . " Se registraron en la base de datos son los siguientes valores:"
                 . " </p>";
  
-            echo nl2br("<h1 class='dato'>Bienvenido: $firstName  $lastName</h1>"
+            echo nl2br("<h3 class='dato'>Bienvenido: $firstName  $lastName</h3>"
                 . "<p class='dato'>Tu fecha de nacimiento es el:$birthDate</p>");
                 
         } else{
