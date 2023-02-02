@@ -15,12 +15,12 @@
     
     <section class="centerForm column g-3 needs-validation shadow border border-1 rounded-3 p-3 pb-5" style="flex-direction:column;text-align:center;">
            <?php
-        
+        include "db_conn.php";
         // servername => localhost
         // username => root
         // password => empty
         // database name => pruebagrant
-        $conn = mysqli_connect("localhost", "root", "", "pruebagrant");
+        $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
          
         // Comprobar Coneccion db
         if($conn === false){
