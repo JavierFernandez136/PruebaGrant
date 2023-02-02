@@ -22,17 +22,13 @@
         <?php } ?>
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nombre</label>
-    <input  type="text" name="firstName" placeholder="Nombre" class="form-control is-valid" id="validationCustom01"  required>
-    <div class="valid-feedback">
-      Ahi va!
-    </div>
+    <input  type="text" name="firstName" placeholder="Nombre" class="form-control " id="validationCustom01"  required>
+   
   </div>
   <div class="col-md-6">
     <label for="validationCustom02" class="form-label">Apellido</label>
-    <input  type="text" name="lastName" placeholder="Apellido" class="form-control is-valid" id="validationCustom02"  required>
-    <div class="valid-feedback">
-       Ahi va!
-    </div>
+    <input  type="text" name="lastName" placeholder="Apellido" class="form-control " id="validationCustom02"  required>
+    
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Fecha de Nacimiento</label>
